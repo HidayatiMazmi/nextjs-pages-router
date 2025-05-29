@@ -31,12 +31,12 @@ export default function RootLayout({
             <div
                 className={`${geistSans.variable} ${geistMono.variable} flex flex-col min-h-screen`}
             >
-                <header className="bg-blue-500 text-white p-4">
-                    <nav className="container mx-auto flex justify-between">
-                        <h1 className="text-lg font-bold">
+                <header className="bg-blue-600 text-white p-4">
+                    <div className="container mx-auto flex justify-between items-center p-4">
+                        <h1 className="text-xl font-bold">
                             Next.js App
                         </h1>
-                        <ul className="flex space-x-4">
+                        <ul className="flex space-x-4 p-4">
                             <li>
                                 <Link href="/">
                                     Home
@@ -48,7 +48,7 @@ export default function RootLayout({
                                 </Link>
                             </li>
                         </ul>
-                    </nav>
+                    </div>
                 </header>
                 <main className="flex-1 container mx-auto p-4">
                     <div className={styles.main}>
