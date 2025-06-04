@@ -47,6 +47,11 @@ export default function RootLayout({
                                     About
                                 </Link>
                             </li>
+                            <li>
+                                <Link href="/notes/server">
+                                    Notes
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                 </header>
